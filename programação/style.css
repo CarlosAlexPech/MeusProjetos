@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #0b22f1 16.62%, #8894ff 85.61%);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+.imagem-Cabecalho{
+    border-radius: 40px;
+    height: 70px;
+    width: 70px;
+}
+.conteudo-cabecalho{
+    display: flex;
+    gap: 35px;
+}
+.cabecalho-item{
+    font-family: 'Righteous', cursive;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 20px;
+}
+.corpo{
+    border-top: 1px solid black;
+    margin-bottom: 50px;
+}
+.corpo-principal{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+.cont-corpo{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.titulo-corpo{
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: bisque;
+}
+.subtitulo-corpo{
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: beige;
+}
+.botao-corpo{
+    background-color: #8894ff;
+    color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Bruno Ace', cursive;
+    border: none;
+    box-shadow: 0 2px 20px #44ebe8;
+    font-weight: 500;
+    font-size: 15px;
+}.botao-corpo:hover{
+    background-color: #44ebe8;
+}
+.img-corpo{
+    border-radius: 7px;
+    height: 300px;
+    width: 500px;
+}
+.passos-corpo{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap: 18px;
+    margin-top: 30px;
+}
+.titulo-passos{
+    border-top: 1px solid black;
+    padding-top: 30px;
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 500;
+    font-size: 25px;
+    color: beige;
+    margin-bottom: 15px;
+}
+.passo{
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    font-size: 15px;
+    color: antiquewhite;
+}
+.final{
+    padding: 30px;
+    border-top: 1px solid black;
+}
+.ima-final{
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
