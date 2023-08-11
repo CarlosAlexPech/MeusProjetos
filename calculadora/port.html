@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="calc.js"></script>
+</head>
+<body>   
+    <main>
+    <fieldset>
+        <form action="" name="calculadora" class="cont">
+            <input type="text" class="areaDtext" name="valor1" disabled>
+            <input type="button" class="reset" name="valor2" value="C" onclick="location.reload()">
+            <br>
+            <input type="button" class="corNUM" name="botao9" value="9" onclick="displaynum(botao9.value)">
+            <input type="button" class="corNUM" name="botao8" value="8" onclick="displaynum(botao8.value)">
+            <input type="button" class="corNUM" name="botao7" value="7" onclick="displaynum(botao7.value)">
+            <input type="button" class="corMAIS" name="botaoADC" value="+" onclick="displaynum(botaoADC.value)">
+            <br>
+            <input type="button" class="corNUM" name="botao6" value="6" onclick="displaynum(botao6.value)">
+            <input type="button" class="corNUM" name="botao5" value="5" onclick="displaynum(botao5.value)">
+            <input type="button" class="corNUM" name="botao4" value="4" onclick="displaynum(botao4.value)">
+            <input type="button" class="corMENOS" name="botaoSUB" value="-" onclick="displaynum(botaoSUB.value)">
+            <br>
+            <input type="button" class="corNUM" name="botao3" value="3" onclick="displaynum(botao3.value)">
+            <input type="button" class="corNUM" name="botao2" value="2" onclick="displaynum(botao2.value)">
+            <input type="button" class="corNUM" name="botao1" value="1" onclick="displaynum(botao1.value)">
+            <input type="button" class="corVEZES" name="botaoVZS" value="*" onclick="displaynum(botaoVZS.value)">
+            <br>
+            <input type="button" class="cor" name="botaoPONTO" value="." onclick="displaynum(botaoPONTO.value)">
+            <input type="button" class="corNUM" name="botao0" value="0" onclick="displaynum(botao0.value)">
+            <input type="button" class="cor" name="botaoIGUAL" value="=" onclick="valor1.value=eval(valor1.value)">
+            <input type="button" class="cor" name="botaoDIV" value="/" onclick="displaynum(botaoDIV.value)">
+        </form>
+    </fieldset>
+
+    </main>
+</body>
+</html>

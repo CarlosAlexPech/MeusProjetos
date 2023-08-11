@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Chakra+Petch:wght@300&family=Press+Start+2P&family=Rajdhani:wght@300&family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.areaDtext {
+  border-radius: 5px;
+  width: 61.6%;
+  height: 50px;
+  font-size: 23px;
+  color: black;
+  padding: 5px;
+  background-color: gray;
+  font-family: "Press Start 2P", cursive;
+  text-align: right;
+}
+.reset {
+  width: 20%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  background-color: #20dbb3;
+}
+.corNUM {
+  width: 20%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-family: "Press Start 2P", cursive;
+}
+.corMAIS {
+  width: 20%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-family: "Press Start 2P", cursive;
+  background-color: #0efff9;
+}
+.corMENOS {
+  width: 20%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-family: "Press Start 2P", cursive;
+  background-color: #20bfd9;
+}
+.corVEZES {
+  width: 20%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-family: "Press Start 2P", cursive;
+  background-color: #8be4ff;
+}
+.cor {
+  width: 20%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-family: "Press Start 2P", cursive;
+  background-color: #ff95f3;
+}
+fieldset {
+  padding: 5px;
+  background-color: #3d4e55;
+  border-radius: 5px;
+  animation-name: giro;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes giro {
+  0% {
+    box-shadow: 0 2px 20px #44ebe8;
+  }
+  25% {
+    box-shadow: 0 2px 20px #00fa9a;
+  }
+  50% {
+    box-shadow: 0 2px 20px #4169e1;
+  }
+  75% {
+    box-shadow: 0 2px 20px #8a2be2;
+  }
+  99% {
+    box-shadow: 0 2px 20px #f71ef7;
+  }
+  100% {
+    box-shadow: 0 2px 20px #44ebe8;
+  }
+}
+select,
+input[type="button"] {
+  cursor: pointer;
+}
