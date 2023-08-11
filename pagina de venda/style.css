@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Chakra+Petch:wght@300&family=Press+Start+2P&family=Rajdhani:wght@300&family=Righteous&family=Roboto+Slab:wght@200&family=Tektur:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Tektur", cursive;
+}
+body {
+  background-color: #191a1f;
+  color: #7b7b8b;
+}
+body.white-theme {
+  background-color: white;
+  color: #060606;
+}
+.cabe {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #910a08;
+}
+.cabe,
+a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.cab{
+    color: #910a08;
+}
+.cab:hover {
+  border-bottom: 2px solid #910a08;
+}
+.itens {
+  display: flex;
+  align-items: center;
+}
+.carrinho {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+.carrinho:hover {
+  scale: 1.1;
+}
+.img-cabe {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+.imga {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.imga:hover {
+  scale: 1.1;
+}
+.conteudo-cabe {
+  display: flex;
+}
+.corpo {
+  display: flex;
+}
+.conteudoESQ {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.conteudoDIR {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.img-corpo {
+  padding-top: 30px;
+  display: flex;
+  width: 550px;
+  height: 550px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  height: 90%;
+  width: 100%;
+}
+.fts {
+  width: 100px;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  box-shadow: 0 0 10px 1px #910a08;
+}
+.fts:hover {
+  opacity: 0.7;
+}
+.ft1 {
+  background-image: url(foto1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.ft2 {
+  background-image: url(foto2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.ft3 {
+  background-image: url(foto3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.ft4 {
+  background-image: url(foto4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pc {
+  width: 90%;
+  height: 90%;
+  padding-top: 30px;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: 0 0 10px 1px #910a08;
+}
+
+.bb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bb-img {
+  width: 20%;
+}
+.icone {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-size: 46px;
+  border-bottom: 2px solid #060606;
+  color: #910a08;
+  padding-left: 10px;
+}
+li {
+  font-size: 17px;
+}
+.container-icons {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 30%;
+}
+
+.icons {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+.icon-zap {
+  background-image: url(whatsapp.png);
+  background-size: cover;
+  background-position: center;
+}
+.icon-tt {
+  background-image: url(twitter.png);
+  background-size: cover;
+  background-position: center;
+}
+.icon-inst {
+  background-image: url(instagram.png);
+  background-size: cover;
+  background-position: center;
+}
+.icon-in {
+  background-image: url(linkedin.png);
+  background-size: cover;
+  background-position: center;
+}
+.icon-zap:hover {
+  box-shadow: 0 0 5px 2px #70ff7f;
+  border-radius: 50px;
+  scale: 1.1;
+}
+.icon-tt:hover {
+  box-shadow: 0 0 5px 2px #3cf9f6;
+  border-radius: 50px;
+  scale: 1.1;
+}
+.icon-inst:hover {
+  box-shadow: 0 0 5px #ff5a92;
+  border-radius: 50px;
+  scale: 1.1;
+}
+.icon-in:hover {
+  box-shadow: 0 0 5px 2px #0699ce;
+  border-radius: 50px;
+  scale: 1.1;
+}
+.btn {
+  margin-top: 0;
+  padding: 10px;
+  border-radius: 3px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #060606;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  box-shadow: inset 0 0 0 0 #5c5b66;
+  background-color: #067bda;
+  border: none;
+}
+.btn:hover {
+  box-shadow: inset 0 0 100px 0 #70ff7f;
+}
+.car{
+    width: 20px;
+    height: 20px;
+}
+.alea {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+}
+.escrita {
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  position: relative;
+  display: inline-block;
+  background-color: #70ff7f;
+  border: none;
+  color: #060606;
+}
+.parcela{
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    position: relative;
+    display: inline-block;
+    background-color: #910a08;
+    border: none;
+    color: #060606;
+}
+.escrita:hover {
+  opacity: 0.7;
+}
+.escrita-esq {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.mont {
+  padding: 10px;
+  color: #060606;
+  text-transform: uppercase;
+  background-color: #067bda;
+  border-radius: 3px;
+}
+.ent {
+  padding: 10px;
+  color: #060606;
+  text-transform: uppercase;
+  background-color: #70ff7f;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+.btn-modo {
+  padding: 10px;
+  border-radius: 50px;
+  background-image: url(TEMAESCURO.png);
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin-right: 10px;
+}
+.btn-modo:hover{
+    scale: 1.2;
+}
+
